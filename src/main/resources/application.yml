@@ -1,0 +1,6 @@
+ipfs:
+  host: ${IPFS_HOST:http://83.220.169.242}
+  api-url: ${IPFS_API_URL:http://83.220.169.242:4371/api/v0/}
+  timeout: 10000  # 10 seconds
+
+local-file-path: ${LOCAL_FILE_PATH:/tmp}
